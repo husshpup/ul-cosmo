@@ -38,17 +38,17 @@
 
 /* Result items */
 .item-icon {
-  margin-left: -40px;
+  margin-left: -10px;
 }
 .item-text {
   color: @item_text;
   font-size: 90%;
-  margin-left: -20px;
+  margin-left: 0px;
 }
 .item-name {
   color: @item_name;
   font-size: 105%;
-  margin-left: -20px;
+  margin-left: 0px;
 }
 .item-shortcut {
   color: @item_shortcut_color;
@@ -64,15 +64,15 @@
   border-radius: 7px;
 }
 .selected.item-box .item-icon {
-  margin-left: -30px;
+  margin-left: -15px;
 }
 .selected.item-box .item-text {
   color: @item_text_selected;
-  margin-left: -15px;
+  margin-left: -5px;
 }
 .selected.item-box .item-name {
   color: @item_name_selected;
-  margin-left: -15px;
+  margin-left: -5px;
 }
 .selected.item-box .item-shortcut {
   color: @item_shortcut_color_sel;
