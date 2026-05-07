@@ -22,7 +22,7 @@
 /* Design */
 .app {
   background-color: @window_bg;
-  border: none @window_border_color;
+  border: solid 1px @window_border_color;
   border-radius: 10px;
   margin: -10px -10px -10px -10px;
 }
@@ -52,7 +52,7 @@
 }
 .item-shortcut {
   color: @item_shortcut_color;
-  margin-right: -60px;
+  margin-right: -10px;
 }
 .result-box {
   margin: -3px 10px 0px 10px;
@@ -76,7 +76,7 @@
 }
 .selected.item-box .item-shortcut {
   color: @item_shortcut_color_sel;
-  margin-right: -45px;
+  margin-right: -5px;
 }
 
 /* Preferences button */
